@@ -1,0 +1,21 @@
+This Solution includes 8 Test cases designed to test the login and signup Validation Cases
+It is written using Python scripting and using selenium libraries and a chrome webdriver
+
+The solution contains 3 main files along with this README file and the chrome driver:
+- attributes file: contains all the used attributes through the solution
+- BaseTest: Contains the basic functions to open and close the driver
+- Tests: Contains the tests listed below:
+Case 1 : Login - Failed Login in case of non existing email
+Case 2 : Login - Empty Credentials
+Case 3 : Login - Forget Account
+Case 4 : Sign Up - All Empty Fields
+Case 5 : Sign Up - Invalid Password
+Case 6: Sign Up - Existing User
+Case 7: Sign Up - Short Name Validation
+Case 8 : Successful Login
+
+To run this solution you will need python 3 installed on your machine, the chrome driver, and for the chrome driver to exist at the same location as the python files.
+
+Note:
+This solution was designed for the facebook page that includes both the login and signup modules, it is not going to work on the pages that has only the login.
+This solution is preferable to run on PyCharm
